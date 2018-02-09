@@ -1,8 +1,8 @@
 define( [ 'module'
-	, './threex.badtvpasses.js',
-	, './threex.badtvdatgui.js',
-	, './threex.badtvsound.js',
-	, './threex.badtvjamming.js',
+	, './badtv/threex.badtvpasses.js',
+	, './badtv/threex.badtvdatgui.js',
+	, './badtv/threex.badtvsound.js',
+	, './badtv/threex.badtvjamming.js',
 	, './shaders/BadTVShader.js',
 	, './shaders/FilmShader.js',
 	, './shaders/RGBShiftShader.js',
