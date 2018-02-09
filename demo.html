@@ -1,14 +1,7 @@
 <!DOCTYPE html>
-<script src='vendor/three.js/build/three.min.js'></script>
-<script src='vendor/require.js/require.js'></script>
-<!-- include three.js postprocessing  -->
-<script src="vendor/three.js/examples/js/postprocessing/EffectComposer.js"></script>
-<script src="vendor/three.js/examples/js/postprocessing/RenderPass.js"></script>
-<script src="vendor/three.js/examples/js/postprocessing/ShaderPass.js"></script>
-<script src="vendor/three.js/examples/js/postprocessing/MaskPass.js"></script>
-<script src="vendor/three.js/examples/js/shaders/CopyShader.js"></script>
-<!-- include dat.gui -->
-<script src='vendor/three.js/examples/js/libs/dat.gui.min.js'></script>
+<script src='./vendor/three.min.js'></script>
+<script src='./vendor/require.js'></script>
+
 <body style='margin: 0px; background-color: #bbbbbb; overflow: hidden;'>
 <script>
 
@@ -26,13 +19,6 @@ require([ '../package.require.js'
 	//////////////////////////////////////////////////////////////////////////////////
 	//		add an object and make it move					//
 	//////////////////////////////////////////////////////////////////////////////////
-
-	// Load Video
-	var video	= document.createElement( 'video' );
-	video.loop	= true;
-	video.volume	= 0;
-	video.src	= "videos/fits.mp4";
-	video.play();
 
 	// build the mesh
 	var geometry	= new THREE.PlaneGeometry(window.innerWidth, window.innerHeight);
